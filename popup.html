@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Identity Manager</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Identity Manager</h1>
+
+  <h2>Add New Identity</h2>
+  <form id="addIdentityForm">
+    <div>
+      <label for="identityName">Name:</label>
+      <input type="text" id="identityName" required>
+    </div>
+    <div>
+      <label for="identityEmail">Email:</label>
+      <input type="email" id="identityEmail" required>
+    </div>
+    <div>
+      <label for="identityAddress">Address:</label>
+      <textarea id="identityAddress"></textarea>
+    </div>
+    <button type="submit">Add Identity</button>
+  </form>
+
+  <h2>Existing Identities</h2>
+  <ul id="identitiesList">
+    <!-- Identities will be listed here -->
+  </ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>

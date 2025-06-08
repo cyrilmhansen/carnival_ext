@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  width: 300px;
+  padding: 10px;
+}
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+form div {
+  margin-bottom: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 10px); /* Adjust for padding/border */
+  padding: 4px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
